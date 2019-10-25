@@ -24,3 +24,25 @@ Nowadays, there are many ways of building data science models using Python, incl
     - How you fit your GP depends on what you need it to do, and how much data you have.
 6. Model checking and prediction (10 min)
     - Does my GP work as advertised? What can I do with it?
+
+## Setup
+
+This tutorial assumes that you have [Anaconda](https://www.anaconda.com/distribution/#download-section) (Python 3.6 or greater) setup and installed on your system. If you do not, please download and install Anaconda on your system before proceding with the setup.
+
+The next step is to clone or download the tutorial materials in this repository. If you are familiar with Git, run the clone command:
+
+    git clone https://github.com/fonnesbeck/gp_regression.git
+    
+otherwise you can [download a zip file](https://github.com/fonnesbeck/gp_regression/archive/master.zip) of its contents, and unzip it on your computer.
+***
+The repository for this tutorial contains a file called `environment.yml` that includes a list of all the packages used for the tutorial. If you run:
+
+    conda env create
+    
+from the main tutorial directory, it will create the environment for you and install all of the packages listed. This environment can be enabled using:
+
+    conda activate gp_tutorial
+    
+Then, you can start **JupyterLab** to access the materials:
+
+    jupyter lab
