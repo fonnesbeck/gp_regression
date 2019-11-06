@@ -2,6 +2,8 @@
 
 **PyData NYC 2019**
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fonnesbeck/gp_regression/master)
+
 ## Description
 
 Gaussian processes are flexible probabilistic models that can be used to perform Bayesian regression analysis without having to provide pre-specified functional relationships between the variables. This tutorial will introduce new users to specifying, fitting and validating Gaussian process models in Python.
@@ -12,17 +14,17 @@ Nowadays, there are many ways of building data science models using Python, incl
 
 ## Outline
 
-1. Regression models: the basics (10 min)
+1. Regression models: the basics 
     - What’s the usual approach to regression, and what are its limitations?
-2. Introduction to probabilistic modeling (15 min)
+2. Introduction to probabilistic modeling
     - How can you model complex things using a Gaussian (normal) distributions?
-3. What is a Gaussian process? (20 min)
+3. What is a Gaussian process? 
     - An overview of the features and properties of Gaussian processes.
-4. Building Gaussian process models (20 min)
+4. Building Gaussian process models
     - Selecting your covariance function to suit your problem.
-5. Fitting Gaussian process models (15 min)
+5. Fitting Gaussian process models
     - How you fit your GP depends on what you need it to do, and how much data you have.
-6. Model checking and prediction (10 min)
+6. Model checking and prediction
     - Does my GP work as advertised? What can I do with it?
 
 ## Setup
