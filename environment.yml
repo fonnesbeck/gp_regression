@@ -1,21 +1,17 @@
 name: gp_tutorial
 
-channels:
-  - conda-forge
-
 dependencies:
   - python=3.7
-  - conda-forge::arviz
   - ipython
   - ipywidgets
   - jupyter_client
   - jupyter_core
-  - conda-forge::jupyterlab
+  - jupyterlab
   - lxml
   - matplotlib
   - mkl-service
   - notebook
-  - numpy
+  - numpy=1.16
   - pandas
   - patsy
   - pip
@@ -28,3 +24,5 @@ dependencies:
   - setuptools
   - theano
   - xlrd
+  - pip:
+    - arviz
