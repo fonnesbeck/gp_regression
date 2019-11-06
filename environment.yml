@@ -2,20 +2,15 @@ name: gp_tutorial
 
 channels:
   - conda-forge
-  - gpytorch
-  - pytorch
+
 dependencies:
   - python=3.7
   - conda-forge::arviz
-  - cython
-  - cpuonly
   - ipython
   - ipywidgets
   - jupyter_client
   - jupyter_core
   - conda-forge::jupyterlab
-  - gpytorch
-  - conda-forge::lifelines
   - lxml
   - matplotlib
   - mkl-service
@@ -27,11 +22,9 @@ dependencies:
   - pymc3
   - pydot
   - python-graphviz
-  - pytorch
   - scikit-learn
   - scipy
   - seaborn
   - setuptools
   - theano
-  - torchvision
   - xlrd
