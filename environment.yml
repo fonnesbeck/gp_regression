@@ -1,7 +1,7 @@
 name: gp_tutorial
 
 dependencies:
-  - python=3.7
+  - python
   - ipython
   - ipywidgets
   - jupyter_client
@@ -9,9 +9,8 @@ dependencies:
   - jupyterlab
   - lxml
   - matplotlib
-  - mkl-service
   - notebook
-  - numpy=1.16
+  - numpy
   - pandas
   - patsy
   - pip
@@ -22,7 +21,6 @@ dependencies:
   - scipy
   - seaborn
   - setuptools
-  - theano
   - xlrd
   - pip:
     - arviz
